@@ -1,5 +1,19 @@
 # Frontend
 
+## Ajax
+
+### Axios
+
+#### 헤더 정보는 제일 마지막에 넣는다
+
+```js
+axios({
+  method: post,
+  data: {},
+  headers: {}
+});
+```
+
 ## Vue
 
 ### API
