@@ -10,8 +10,6 @@
 
 ## Vuex
 
-Getters, Mutations, Actions 에 대한 개념 정리가 필요.
-
 ## Vue-router
 
 봐야 하는데 아직 안보고 Vuex 를 먼저 봤음ㅋ

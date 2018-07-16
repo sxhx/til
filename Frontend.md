@@ -16,13 +16,27 @@ axios({
 
 ## Vue
 
-### API
+### Vue API
 
 #### `Vue.set(target, key, value)`
 
 - `{Object | Array} target`
 - `{string | number} key`
 - `{any} value`
+
+### Vuex
+
+#### 기본 요소들
+
+- State
+  - 리액트의 state 와 같다.
+- Getters
+  - 로컬 컴포넌트의 computed 속성과 같다고 생각하면 쉽다.
+- Mutations
+  - state 를 변경하기 위한 함수들.
+- Actions
+  - mutation 함수들을 commit 하기 위한 함수들.
+  - 여기서 비동기 처리를 하자.
 
 ### 자잘한 것들
 
