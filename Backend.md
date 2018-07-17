@@ -2,7 +2,7 @@
 
 ## JWT
 
-### `xxxx.yyyy.zzzz` 처럼 생겼다.
+### `xxxx.yyyy.zzzz` 처럼 생겼다
 
 token 요청을 하면 JSON 형태로 오지만,
 
