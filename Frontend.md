@@ -38,6 +38,15 @@ axios({
   - mutation 함수들을 commit 하기 위한 함수들.
   - 여기서 비동기 처리를 하자.
 
+#### `actions`에서 다른 `action` 부르려면?
+
+```js
+someAction({ dispatch }) { // dispatch를 param으로 받을 수 있다.
+  // ...
+  dispatch('anotherAction')
+};
+```
+
 ### 자잘한 것들
 
 > #### form element 기본 동작 막기:
