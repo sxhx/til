@@ -51,3 +51,7 @@ axios({
 > #### 클릭 이벤트가 중복 발생할 때:
 >
 > `@click.stop`
+
+> #### Vue 만지다가 `Uncaught (in promise) TypeError`를 만났다:
+>
+> 어딘가 async 처리가 필요한 상황인 것으로 추정됨.
