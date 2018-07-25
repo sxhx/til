@@ -47,6 +47,16 @@ someAction({ dispatch }) { // dispatch를 param으로 받을 수 있다.
 };
 ```
 
+#### 'getters'에서 다른 'getter'를 부르려면?
+
+```js
+export default {
+  someGetter: (state, getters) => {
+    getters.anotherGetter;
+  };
+}
+```
+
 ### 자잘한 것들
 
 > #### form element 기본 동작 막기:
