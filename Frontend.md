@@ -57,6 +57,26 @@ export default {
 }
 ```
 
+#### Form 에서 `v-model`을 사용하려면?
+
+```html
+<input v-model="message">
+```
+
+```js
+// ...
+computed: {
+  message: {
+    get () {
+      return this.$store.state.obj.message
+    },
+    set (value) {
+      this.$store.commit('updateMessage', value)
+    }
+  }
+}
+```
+
 ### 자잘한 것들
 
 > #### form element 기본 동작 막기:
