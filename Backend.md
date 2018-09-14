@@ -46,3 +46,6 @@ JSON 형태로 쓰는 건 아니라는.
 > 데이터베이스가 꼬였을 때 &rarr; `./manage.py flush` 를 해보자.
 
 > `TemplateDoesNotExist` 에러가 뜰 경우 &rarr; `settings.py` 의 `INSTALLED_APPS` 에 빼먹은게 있나 살펴보자.
+
+> `localhost`를 다른 컴퓨터에서 액세스하기:  
+> `runserver <ip address>:8000` 하면 된다.

@@ -23,3 +23,9 @@
 ### Django 기본
 
 Django 가 어떻게 돌아가는지 기본적인 이해가 부족. 보충 필요.
+
+---
+
+## Python
+
+### Decorator
